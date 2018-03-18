@@ -15,7 +15,6 @@
     <lombok.version>1.16.20</lombok.version>
   </properties>
 
-
   <dependencyManagement>
     <dependencies>
       <dependency>
