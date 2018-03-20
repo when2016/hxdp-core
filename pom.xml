@@ -13,6 +13,7 @@
     <java.version>1.8</java.version>
     <springboot.version>1.5.9.RELEASE</springboot.version>
     <lombok.version>1.16.20</lombok.version>
+    <shrio-spring.version>1.4.0</shrio-spring.version>
   </properties>
 
   <dependencyManagement>
@@ -38,6 +39,13 @@
       <artifactId>lombok</artifactId>
       <version>${lombok.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-spring</artifactId>
+      <version>${shrio-spring.version}</version>
+    </dependency>
+
   </dependencies>
 
   <build>
