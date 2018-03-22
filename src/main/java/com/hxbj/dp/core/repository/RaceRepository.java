@@ -24,4 +24,6 @@ public interface RaceRepository extends MongoRepository<Race, String> {
   Page<Race> findByNameLikeAndScheduleId(String name, String scheduleId, Pageable pageable);
 
   List<Race> findByNameLike(String name);
+
+  List<Race> findByScheduleIdOrderByOrderIdAsc(String scheduleId);
 }

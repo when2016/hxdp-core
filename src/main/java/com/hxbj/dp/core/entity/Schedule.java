@@ -1,6 +1,7 @@
 package com.hxbj.dp.core.entity;
 
 import java.io.Serializable;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -39,6 +40,10 @@ public class Schedule implements Serializable {
   private String updateTime;
   private String mc;
   private String narrator;
+
+  //app采集方法是否显示
+  private String appType;
+  private List<Race> raceList;
 
   public Schedule(String id) {
     this.id = id;
