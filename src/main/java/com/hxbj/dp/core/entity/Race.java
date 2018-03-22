@@ -32,6 +32,7 @@ public class Race implements Serializable {
   private String redArm;
   private String redAreaId;
   private String redAreaName;
+  private String redPicUrl;
 
   private String blueId;
   private String blueName;
@@ -42,6 +43,7 @@ public class Race implements Serializable {
   private String blueArm;
   private String blueAreaId;
   private String blueAreaName;
+  private String bluePicUrl;
 
   private String boxingId;
   private String boxingName;
