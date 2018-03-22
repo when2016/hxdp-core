@@ -25,5 +25,6 @@ public interface RaceRepository extends MongoRepository<Race, String> {
 
   List<Race> findByNameLike(String name);
 
+  //app采集方法是否显示
   List<Race> findByScheduleIdOrderByOrderIdAsc(String scheduleId);
 }
