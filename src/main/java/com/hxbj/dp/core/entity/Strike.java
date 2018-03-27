@@ -40,6 +40,12 @@ public class Strike implements Serializable {
   private String createTime;
   private String updateTime;
 
+  //api接口使用
+  private int valid;
+  private int invalid;
+  private String method;
+  private int thump;
+
   public Strike(String id) {
     this.id = id;
   }
