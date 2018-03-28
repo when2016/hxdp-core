@@ -70,6 +70,7 @@ public class Race implements Serializable {
   private String updateTime;
   private String scoreType;
   private String scoreDetail;
+  private String scoreDetail2;//加时打分
   private String roundEndTime;
 
   public Race(String id) {
