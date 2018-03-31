@@ -90,7 +90,6 @@
       <id>releases</id>
       <name>releases</name>
       <url>http://maven.shengnian.org/repository/maven-releases/</url>
-      <uniqueVersion>true</uniqueVersion>
     </repository>
     <snapshotRepository>
       <id>Snapshots</id>
